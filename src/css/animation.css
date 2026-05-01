@@ -1,0 +1,137 @@
+@keyframes rotacao {
+  from {
+    transform: rotateY(1turn);
+  }
+  to {
+    transform: rotate(0turn);
+  }
+}
+
+@keyframes rotacaoBall {
+  from {
+    transform: translateY(-130%) translateX(23%) translateY(50%) rotateY(1turn);
+    transform-origin: center;
+  }
+  to {
+    transform: translateY(-130%) translateX(23%) translateY(50%) rotateY(0turn);
+    transform-origin: center;
+  }
+}
+@keyframes saltoBall {
+  0% {
+    translate: 0 -130%;
+  }
+
+  50% {
+    translatey: 0 -149%;
+  }
+
+  100% {
+    translatey: 0 -160%;
+  }
+}
+
+@keyframes ballShadow {
+  0% {
+    transform: rotateX(90deg) translateZ(7.6rem) scale(0.3);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0rem 0rem 6rem 3rem rgb(0, 0, 0);
+  }
+  5% {
+    transform: rotateX(90deg) translateZ(7.6rem) scale(0.3);
+  }
+
+  100% {
+    transform: rotateX(90deg) translateZ(7.6rem) scale(0.36);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0rem 0rem 9rem 6rem rgb(0, 0, 0);
+  }
+}
+
+/* @keyframes updown {
+  0% {
+    top: 150%;
+  }
+
+  5% {
+    top: 149%;
+  }
+
+  100% {
+    top: 142%;
+  }
+} */
+
+@keyframes updown {
+  0% {
+    transform: translateY(150%);
+  }
+  
+  5% {
+    transform: translateY(149%);
+  }
+  
+  100% {
+    transform: translateY(142%);
+  }
+}
+
+@keyframes bottomShadow {
+  0% {
+    transform: scale(2.2);
+    background-color: hsla(240, 1%, 27%, 0.932);
+    box-shadow: 0rem 0rem 2.5rem 2rem rgb(69, 69, 70);
+  }
+  5% {
+    transform: scale(2.2);
+  }
+  
+  100% {
+    transform: scale(2.1);
+    background-color: hsla(240, 1%, 27%, 0.932);
+    box-shadow: 0rem 0rem 2.5rem 2rem rgb(69, 69, 70);
+  }
+}
+
+
+@keyframes image_change{
+  0%{
+    background: url('../images/air-balloon.gif') no-repeat center center;
+    background-size: 100%;
+    filter: blur(0rem) opacity(0.95);
+  }
+  25%{
+    background: url('../images/air-balloon.gif') no-repeat center center;
+    background-size: 100%;
+  }
+  40%{
+    background: url('../images/air-balloon.gif') no-repeat center center;
+    background-size: 100%;
+    filter: blur(0rem) opacity(0.95);
+  }
+  50%{
+    background: url('../images/air-balloon.gif') no-repeat center center;
+    background-size: 100%;
+    filter: blur(0rem) opacity(0.8);
+  }
+  53%{
+    background: url('../images/clouds.gif') no-repeat center center;
+    background-size: 100%;
+    filter: blur(.4rem) opacity(0.5);
+  }
+  54%{
+    background: url('../images/clouds.gif') no-repeat center center;
+    background-size: 100%;
+    filter: blur(0rem) opacity(0.8);
+  }
+  75%{
+    background: url('../images/clouds.gif') no-repeat center center;
+    background-size: 100%;
+    filter: blur(0rem) opacity(0.95);
+  }
+  100%{
+    background: url('../images/clouds.gif') no-repeat center center;
+    background-size: 100%;
+    filter: blur(0rem) opacity(0.95);
+  }
+}

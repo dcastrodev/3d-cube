@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./src/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/animation.css" />
+    <link rel="stylesheet" href="./src/css/signboard.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <title>3d-cube</title>
+  </head>
+  <body id="body">
+  <div class="cam-selection">
+      <button class="btn-cam active" data-p="90.7rem" data-o="50% 20%" data-f="48%">Cam 1</button>
+      <button class="btn-cam" data-p="100.7rem" data-o="50% 50%" data-f="38%">Cam 2</button>
+      <button class="btn-cam" data-p="100.7rem" data-o="50% 0%" data-f="38%">Cam 3</button>
+      <button class="btn-cam" data-p="100.7rem" data-o="50% 50%" data-f="60%">Cam 4</button>
+      <button class="btn-cam" data-p="100.7rem" data-o="50% 90%" data-f="60%">Cam 5</button>
+  </div>
+    <section class="scene">
+      <div class="cube">
+        <div class="ball"></div>
+        <div class="ballshadow"></div>
+        <div class="front">A</div>
+        <div class="right">B</div>
+        <div class="back">C</div>
+        <div class="left">D</div>
+        <div class="top">E</div>
+        <div class="bottom">F</div>
+      </div>
+
+      <div class="signboard">
+        Have Fun!
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <img class="img_left" src="./src/images/sparkes.gif"  alt="">
+      <img class="img_right" src="./src/images/sparkes.gif" alt="">
+      <div class="behind_img"></div>
+
+      <div class="floor">
+        <div></div>
+        <p>✨</p>
+        <p>✨<span class="creator">D.<br>Castro</span></p>
+        <p>✨</p>
+        <p>✨</p>
+        <div class="shadow"></div>
+      </div>
+    </section>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
