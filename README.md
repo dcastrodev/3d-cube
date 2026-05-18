@@ -2,7 +2,10 @@
 O projeto apresenta uma cena tridimensional de um cubo com objetos dinâmicos, foi desenvolvido (sem o uso de frameworks), com o objetivo de consolidar os conhecimentos do css 3d por meio da aplicação de suas propriedades, bem como, praticar a utilização de animações(keyframes).
 Todo o projeto foi feito usando somente HTML, CSS. Foi usado o Javascript no menu, para permitir com que a troca de perspectiva da cena ocorresse ao clicar nos diferentes botões de câmera "cam".
 
-<a href="https://dcastrodev.github.io/3d-cube/">🔗 Live Demo</a>
+## 📍 Live Demo
+Veja o projeto no seu navegador:
+
+<a href="https://dcastrodev.github.io/3d-cube/"><strong>🔗 Click to View</strong></a>
 
 ## Linguagens
 - HTML5
